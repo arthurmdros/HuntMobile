@@ -10,7 +10,7 @@ import Details from './pages/Detail';
 export default function Routes(){
     return(
         <NavigationContainer>
-            <AppStack.Navigator>
+            <AppStack.Navigator screenOptions={{ headerShown: false }}>
                 <AppStack.Screen name = 'Produtos' component = {Products}/>
                 <AppStack.Screen name = 'Detalhes' component = {Details}/>
             </AppStack.Navigator>  
