@@ -39,6 +39,12 @@ export default StyleSheet.create({
         color: '#737380',
     },
 
+    buttons:{
+        marginTop: 16,
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+    },
+
     button: {
         backgroundColor: '#da552f',
         borderRadius: 8,

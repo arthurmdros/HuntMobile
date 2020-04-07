@@ -7,7 +7,7 @@ export default StyleSheet.create({
         paddingTop: Constants.statusBarHeight + 10,        
     },
 
-    header:{
+    header:{        
         flexDirection: 'row',
         justifyContent: 'center',
         alignItems: 'center',
@@ -17,23 +17,28 @@ export default StyleSheet.create({
     headerText: {
         fontSize: 15,
         color: '#FFF',
+        fontWeight: 'bold',
     },
 
     productList: {
-        marginTop: 32,
+        marginTop: 32,        
     },
 
     product: {
         padding: 24,
         borderRadius: 8,
         backgroundColor: '#FFF',
-        marginBottom: 16,
+        marginBottom: 16,        
     },
 
     productProperty: {
         fontSize: 14,
         color: '#41414d',
         fontWeight: 'bold',
+    },
+
+    containerButton: {
+        alignItems: 'center',        
     },
 
     productValue: {
@@ -49,12 +54,14 @@ export default StyleSheet.create({
         height: 50,
         width: '48%',
         justifyContent: 'center',
-        alignItems: 'center',
+        alignItems: 'center',    
+                    
     },
 
     buttonText:{
         color: '#FFF',
         fontSize: 15,
         fontWeight: 'bold',
-    }
+    },
+
 });
