@@ -15,8 +15,9 @@ export default StyleSheet.create({
     },
 
     headerText: {
-        fontSize: 15,
+        fontSize: 21,
         color: '#FFF',
+        fontWeight: 'bold',
     },
 
     product: {
