@@ -16,15 +16,15 @@ Apresenta página de index, detalhes e acesso a url por meio da WebView do React
   
 ### Página Inicial
 
-![Página Inicial][logo]
-
-[logo]: https://github.com/arthurmdros/HuntMobile/blob/master/index.png "Index"
+<p align="center">
+  <img src="https://github.com/arthurmdros/HuntMobile/blob/master/index.png">
+</p>
 
 ### Página de Detalhes
 
-![Detalhes][logo1]
-
-[logo1]: https://github.com/arthurmdros/HuntMobile/blob/master/detail.png "Detail"
+<p align="center">
+  <img src="https://github.com/arthurmdros/HuntMobile/blob/master/detail.png">
+</p>
 
 ## Para executar a aplicação basta seguir os passos:
   
